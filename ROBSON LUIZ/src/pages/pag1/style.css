@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Viga&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #010308;
+
+}
+.home-title{
+    align-items: center;
+    display: block;
+    color: azure;
+    font-size: 40px;
+    background: azure ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-stretch: 90px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    
+
+}
+.logo-home{
+    width: 100px;
+    margin-top: 2px;
+    vertical-align: middle;
+
+}
+.wrap-home{
+    background-color:  rgb(21, 26, 32);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 90px 60px 90px 60px;
+    width: 800px;
+
+}
+.container-button-1-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.home-button{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    color: aliceblue;
+    border-radius: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    background:  #333;
+    border: none;
+    cursor: pointer;
+}
+.linkButt{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.home-button:hover{
+    background: #333 ;
+    
+
+}
