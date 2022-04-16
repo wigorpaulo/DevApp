@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-extrato{
+    background-color: #010308;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+.wrap-extrato{
+    background-color: rgb(21, 26, 32);
+    padding: 60px 80px 80px 80px;
+    border-radius: 10px;
+    width: 600px;
+    align-items: center;
+}
+.logo-extrato{
+    width: 150px;
+    vertical-align: middle;
+}
+.extrato-title{
+    color: aliceblue;
+    font-size: 40px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-stretch: 90px;
+    display: block;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.historico-extrato{
+    margin-top: 0px;
+
+}
+.extrato-valores{
+    margin-top: 10px;
+
+}
+.historico-extrato-valores{
+    margin-bottom: 15px;
+    margin-left: 15x;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(180deg,#d019d6,#31108b)  ;  
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;  
+    border: solid;
+    border-left-color: #31108b;
+    border-right-color: #31108b;
+    border-top-color: #d019d6 ;
+    border-bottom-color: #d019d6;
+
+}
+.saldo-tela{
+    color: aliceblue;
+    font-size: 40px;
+    background: -webkit-linear-gradient(180deg,#d019d6,#31108b)  ;  
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-stretch: 90px;
+    display: block;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.container-button-0-extrato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.linkExtrato{
+    margin-left: 70px;
+}
+.container-button:hover{ 
+    background:  linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -webkit-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -o-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -moz-linear-gradient(to left, #62b5ec,#bb51e6) ;
+}

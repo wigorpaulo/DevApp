@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "name": "Brunna ",
+      "email": "brunna@bb.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Gilvan",
+      "email": "gilvan@gg.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Miguel Ângelo",
+      "email": "miguel@mm.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "wigor",
+      "email": "wigor@teste.com",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "values": [
+    {
+      "user_id": "1",
+      "description": "dadasdad",
+      "type": "Entrada",
+      "value": "1000",
+      "id": 1
+    },
+    {
+      "description": "dadasd",
+      "type": "Saída",
+      "value": "4000",
+      "id": 3
+    },
+    {
+      "user_id": "2",
+      "description": "Salário do dia 02/04",
+      "type": "Entrada",
+      "value": "3500",
+      "id": 4
+    },
+    {
+      "user_id": "2",
+      "description": "Lanche",
+      "type": "Saída",
+      "value": "300",
+      "id": 6
+    },
+    {
+      "user_id": "2",
+      "description": "dasdfff",
+      "type": "Entrada",
+      "value": "1000",
+      "id": 7
+    },
+    {
+      "user_id": "3",
+      "description": "Salário do mês",
+      "type": "Entrada",
+      "value": "3500",
+      "id": 8
+    },
+    {
+      "user_id": "3",
+      "description": "Conta de luz",
+      "type": "Saída",
+      "value": "500",
+      "id": 9
+    },
+    {
+      "user_id": "3",
+      "description": "Conta de água editado",
+      "type": "Entrada",
+      "value": "300",
+      "id": 10
+    },
+    {
+      "user_id": "1",
+      "description": "Agua",
+      "type": "Saída",
+      "value": "200",
+      "id": 11
+    },
+    {
+      "user_id": "1",
+      "description": "Bebida",
+      "type": "Entrada",
+      "value": "360",
+      "id": 12
+    },
+    {
+      "user_id": "1",
+      "description": "Conta",
+      "type": "Saída",
+      "value": "895",
+      "id": 13
+    },
+    {
+      "user_id": "4",
+      "description": "teste 01",
+      "type": "Entrada",
+      "value": "500",
+      "id": 14
+    },
+    {
+      "user_id": "4",
+      "description": "teste 02",
+      "type": "Saída",
+      "value": "245",
+      "id": 15
+    },
+    {
+      "user_id": "4",
+      "description": "teste 03",
+      "type": "Saída",
+      "value": "25",
+      "id": 16
+    },
+    {
+      "user_id": "4",
+      "description": "teste 04",
+      "type": "Entrada",
+      "value": "35",
+      "id": 17
+    }
+  ]
+}

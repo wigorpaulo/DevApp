@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Viga&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto; /* centraliza tudo no centro e with vai cobrir toda a tela*/
+}
+.container-login{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #010308;
+
+}
+.wrap-login{
+    width: 390px;
+    background-color: rgb(21, 26, 32);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 77px 55px 33px 55px;
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,0.3);
+}
+.form-login{
+    width: 100%;
+}
+.login-form-title{
+    display: block;
+    font-size: 40px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-stretch: 90px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+
+    line-height: 1.35;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.login-form-title img{
+    width: 90px;
+    height: 90px;  
+    margin-left: 10px;
+      
+}
+.wrap-input{
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid aliceblue ;
+    margin-bottom: 32px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    color: rgba(227, 236, 103, 0.774);
+
+    
+}
+.input{
+    font-size: 15px;
+    color: rgba(103, 216, 236, 0.774);
+    line-height: 1.2;
+    border: none;
+    width: 322px;
+    height: 45px;
+    background-color: transparent;
+    padding: 0 5px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+}
+.focus-input{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left:0;
+    pointer-events: none;
+    color: rgb(255, 255, 255);
+    
+}
+.focus-input::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -2.5px;
+    left:0;
+    width: 3px;
+    height: 3px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    background:  linear-gradient(to left, #194bd6,#7651db) ;
+    background: -webkit-linear-gradient(to left,#194bd6,#7651db) ;
+    background: -o-linear-gradient(to left,#194bd6,#7651db);
+    background: -moz-linear-gradient(to left,#194bd6,#7651db);
+
+
+}
+.focus-input::after{
+    font-size: 15px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top:16px;
+    left: 0px;
+    padding-left: 5px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s ;
+}
+.input:focus{
+    outline: 0;
+
+}
+.input:focus + .focus-input::after{ /* faz com q o emial e senha subam quando clicados
+    */
+    top: -15px;
+
+}
+
+.input:focus + .focus-input::before{ 
+    
+width: 100%;
+}
+.has-val + .focus-input::after{
+    top: -15px;
+
+}
+.has-val + .focus-input::before{
+    width: 100%;
+
+}
+.container-form-login-0-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+}
+.login-form-btn{
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    color:aliceblue;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    background:  linear-gradient(to left, #194bd6,#7651db) ;
+    background: -webkit-linear-gradient(to left,#194bd6,#7651db) ;
+    background: -o-linear-gradient(to left,#194bd6,#7651db);
+    background: -moz-linear-gradient(to left,#194bd6,#7651db);   
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+
+}
+.login-form-btn:hover{
+    cursor: pointer;
+    background:  linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -webkit-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -o-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -moz-linear-gradient(to left, #62b5ec,#bb51e6) ;
+}
+.linkButt{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.txt1{
+    font-size: 14px;
+    color: #194bd6;
+    line-height: 6;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    padding-right: 3px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+.txt2{
+    font-size: 14px;
+    color: #194bd6;
+    line-height: 1.2;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    background: -webkit-linear-gradient(180deg,#7651db,#da3acd)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}

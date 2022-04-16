@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-ContasReceber{
+    background-color: #010308;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+
+}
+.contasReceber-title{
+    color: aliceblue;
+    font-size: 40px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-stretch: 90px;
+    display: block;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+.logo-ContasReceber{
+    width: 150px;
+    vertical-align: middle;
+}
+.wrap-ContasReceber{
+    background-color: rgb(21, 26, 32);
+    padding: 60px 80px 80px 80px;
+    border-radius: 10px;
+    width: 600px;
+}
+.wrap-input-ContasReceber{
+    padding-bottom: 50px;
+    width: 100%;
+    position: relative;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    
+}
+.input-ContasReceber{
+    width: 300px;
+    height: 45px;
+    align-items: center;
+    border:  none;
+    border-radius: 10px;
+    padding: 0 5px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    font-size: 30px;
+    color: rgba(227, 236, 103, 0.774);
+    background-color: transparent;
+    border-bottom: 2px solid rgba(181, 143, 252, 0.774);
+    ;
+
+
+
+}
+
+.focus-input-ContasReceber{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #194bd6;
+    top: 0px;
+    left:0;
+    pointer-events: none;
+}
+.input-ContasReceber::before{
+    content: " ";
+    display: block;
+    position: absolute;
+}
+.focus-input-ContasReceber::after{
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top:16px;
+    left: 0px;
+    padding-left: 5px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif; 
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s ;
+}
+.input-ContasContasReceber:focus{
+    outline: 0;
+}
+.input-ContasReceber:focus+.focus-input-ContasReceber::after{
+    top: -15px;
+
+}
+.input-ContasReceber:focus+.focus-input-ContasReceber::before{
+    width: 100%;
+
+}
+
+.input-ContasReceberDesc{
+    width: 410px;
+    height: 45px;
+    align-items: center;
+    border:  none;
+    border-radius: 30px;
+    padding: 0 5px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    font-size: 15px;
+    color: rgba(227, 236, 103, 0.774);
+    background-color: transparent;
+    border-bottom: 2px solid rgba(181, 143, 252, 0.774);
+    content: attr(data-placeholder);
+}
+.has-val +.focus-input-ContasReceber::after{
+    top: -15px;
+}
+.has-val +.focus-input-ContasReceber::before{
+    width: 100%;
+}
+
+.focus-input-ContasReceberDesc{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #194bd6;
+    top: 0px;
+    left:0;
+    pointer-events: none;
+    
+}
+.input-ContasReceberDesc::before{
+    content: " ";
+    display: block;
+    position: absolute;
+}
+.input-ContasReceberDesc:focus{
+    outline: 0;
+}
+.input-ContasReceberDesc:focus+.focus-input-ContasReceber::after{
+    top: -15px;
+
+}
+.input-ContasReceberDesc:focus+.focus-input-ContasReceber::before{
+    width: 100%;
+
+}
+.has-val +.focus-input-ContasReceberDesc::after{
+    top: -15px;
+}
+.has-val +.focus-input-ContasReceberDesc::before{
+    width: 100%;
+}
+
+
+.container-button-0-contasReceber{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+    margin-left: 65px;
+}
+    .container-button-receber{ 
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    color: aliceblue;
+    border-radius: 89px;
+    background:  linear-gradient(to left, #194bd6,#7651db) ;
+    background: -webkit-linear-gradient(to left,#194bd6,#7651db) ;
+    background: -o-linear-gradient(to left,#194bd6,#7651db);
+    background: -moz-linear-gradient(to left,#194bd6,#7651db);
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    color: aliceblue;
+}
+.linkButtContasReceber{
+    margin-left: 70px;
+}
+.container-button-receber:hover{ 
+    background:  linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -webkit-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -o-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -moz-linear-gradient(to left, #62b5ec,#bb51e6) ;
+}

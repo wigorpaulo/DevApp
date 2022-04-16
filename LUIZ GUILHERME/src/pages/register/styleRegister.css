@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Viga&display=swap');
+*{
+    width: 100%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Logo{
+    width: 300px;
+}
+.container{
+    width: 100%;
+    margin:  0 auto;
+}
+.container-register{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #010308;
+}
+.wrap-register{
+    width: 500px;
+
+    background-color: rgb(21, 26, 32);
+    border-radius: 10px;
+    overflow: hidden;
+    padding:  55px 32px 35px;
+}
+.form-register{
+    width: 100%;
+}
+.register-form-title{
+    display: block;
+    font-size: 40px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    line-height: 1.35;
+    text-align: center;
+}
+.wrap-input-Register{
+    width: 100%;
+    position: relative;
+    border-bottom: 3px solid aliceblue ;
+    margin-bottom: 37px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    color: rgba(227, 236, 103, 0.774);
+    
+}
+.inputRegister{
+    font-size: 15px;
+    color: antiquewhite;
+    line-height: 1.2;
+    background: transparent;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 0px 5px;
+
+}
+.focus-input-Register{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    color: rgb(255, 255, 255);
+}
+.focus-input-Register::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -2.5px;
+    left:0;
+    width: 3px;
+    height: 3px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    background:  linear-gradient(to left, #194bd6,#7651db) ;
+    background: -webkit-linear-gradient(to left,#194bd6,#7651db) ;
+    background: -o-linear-gradient(to left,#194bd6,#7651db);
+    background: -moz-linear-gradient(to left,#194bd6,#7651db);
+
+}
+.focus-input-Register::after{
+        font-size: 15px;
+        line-height: 1.2;
+        content: attr(data-placeholder);
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 16px;
+        left: 0px;
+        padding: 5px;
+        background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;   
+        -webkit-background-clip: text ;
+        -webkit-text-fill-color: transparent;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -moz-transition: all 0.5s ;
+
+}
+.inputRegister:focus{
+    outline: 0;
+}
+.inputRegister:focus + .focus-input-Register::after{
+    top: -15px
+}
+.inputRegister:focus + .focus-input-Register::before{
+    width: 100%;
+}
+.has-val+ .focus-input-Register::after{
+    top: -15px
+}
+.has-val+ .focus-input-Register::before{
+    width: 100%;
+}
+
+.container-register-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+}
+.register-form-btn-Register{
+    margin-top: 20px;
+    font-size: 15px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background:  linear-gradient(to left, #194bd6,#7651db) ;
+    background: -webkit-linear-gradient(to left,#194bd6,#7651db) ;
+    background: -o-linear-gradient(to left,#194bd6,#7651db);
+    background: -moz-linear-gradient(to left,#194bd6,#7651db);   
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    margin-left: 120px;
+    text-decoration: none;
+}
+.register-form-btn-Register:hover{
+    cursor: pointer;
+    background:  linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -webkit-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -o-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -moz-linear-gradient(to left, #62b5ec,#bb51e6) ;
+}
+
+.text-center-Register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+
+}
+.txt1-Register{
+    font-size: 14px;
+    color: #194bd6;
+    line-height: 1.2;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    padding-right: 5px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+.txt2-Register{
+    font-size: 14px;
+    color: #194bd6;
+    line-height: 1.5;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    background: -webkit-linear-gradient(180deg,#7651db,#da3acd)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+

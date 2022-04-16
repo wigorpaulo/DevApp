@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.saldo{
+    color: #194bd6;
+    background-color: rgb(21, 26, 32);
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: -500px;
+
+}
+.valor-Saldo-Div{
+    background: -webkit-linear-gradient(180deg,#b019d6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 30px;
+
+}
+.saldo-titulo{
+    color: aliceblue;
+    align-items: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+
+}
+.extrato{
+    color: #194bd6;
+    background-color: rgb(21, 26, 32);
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+    margin-right:700px;
+    margin-top: -500px;
+    align-items: center;
+    display: block;
+    text-align: center;
+
+}
+.valor-extrato-div{
+    margin-top: 30px;
+    background: -webkit-linear-gradient(180deg,#b019d6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 15px;
+
+}
+.extrato-titulo{
+    color: aliceblue;
+    align-items: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.container-ContasPagar{
+    background-color: #010308;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+.contasPagar-title{
+    color: aliceblue;
+    font-size: 40px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-stretch: 90px;
+    display: block;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+.logo-ContasPagar{
+    width: 150px;
+    vertical-align: middle;
+}
+.wrap-ContasPagar{
+    background-color: rgb(21, 26, 32);
+    padding: 60px 80px 80px 80px;
+    border-radius: 10px;
+    width: 600px;
+}
+.wrap-input-ContasPagar{
+    padding-bottom: 50px;
+    width: 100%;
+    position: relative;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    
+}
+.input-ContasPagar{
+    width: 300px;
+    height: 45px;
+    align-items: center;
+    border:  none;
+    border-radius: 10px;
+    padding: 0 5px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    font-size: 30px;
+    color: rgba(227, 236, 103, 0.774);
+    background-color: transparent;
+    border-bottom: 2px solid rgba(181, 143, 252, 0.774);
+    ;
+
+
+
+}
+
+.focus-input-ContasPagar{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #194bd6;
+    top: 0px;
+    left:0;
+    pointer-events: none;
+}
+.input-ContasPagar::before{
+    content: " ";
+    display: block;
+    position: absolute;
+}
+.focus-input-ContasPagar::after{
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top:16px;
+    left: 0px;
+    padding-left: 5px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif; 
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s ;
+}
+.input-ContasPagar:focus{
+    outline: 0;
+}
+.input-ContasPagar:focus+.focus-input-ContasPagar::after{
+    top: -15px;
+
+}
+.input-ContasPagar:focus+.focus-input-ContasPagar::before{
+    width: 100%;
+
+}
+
+.input-ContasPagarDesc{
+    width: 410px;
+    height: 45px;
+    align-items: center;
+    border:  none;
+    border-radius: 30px;
+    padding: 0 5px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    font-size: 15px;
+    color: rgba(227, 236, 103, 0.774);
+    background-color: transparent;
+    border-bottom: 2px solid rgba(181, 143, 252, 0.774);
+    content: attr(data-placeholder);
+}
+.has-val +.focus-input-ContasPagar::after{
+    top: -15px;
+}
+.has-val +.focus-input-ContasPagar::before{
+    width: 100%;
+}
+.input-valor-text{
+    top: -15px;
+
+}
+
+.focus-input-ContasPagarDesc{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #194bd6;
+    top: 0px;
+    left:0;
+    pointer-events: none;
+    
+}
+.input-ContasPagarDesc::before{
+    content: " ";
+    display: block;
+    position: absolute;
+}
+.input-ContasPagarDesc:focus{
+    outline: 0;
+}
+.input-ContasPagarDesc:focus+.focus-input-ContasPagar::after{
+    top: -15px;
+
+}
+.input-ContasPagarDesc:focus+.focus-input-ContasPagar::before{
+    width: 100%;
+
+}
+.has-val +.focus-input-ContasPagarDesc::after{
+    top: -15px;
+}
+.has-val +.focus-input-ContasPagarDesc::before{
+    width: 100%;
+}
+
+
+.container-button-0-ContasPagar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .container-button{ 
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    color: aliceblue;
+    border-radius: 89px;
+    background:  linear-gradient(to left, #194bd6,#7651db) ;
+    background: -webkit-linear-gradient(to left,#194bd6,#7651db) ;
+    background: -o-linear-gradient(to left,#194bd6,#7651db);
+    background: -moz-linear-gradient(to left,#194bd6,#7651db);
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    color: aliceblue;
+}
+.linkButtContaPagar{
+    margin-left: 70px;
+}
+.container-button:hover{ 
+    background:  linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -webkit-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -o-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -moz-linear-gradient(to left, #62b5ec,#bb51e6) ;
+}

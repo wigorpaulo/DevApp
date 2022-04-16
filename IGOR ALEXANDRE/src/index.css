@@ -1,0 +1,244 @@
+*{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ink Free';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-80 { font-size: 80px; }
+.material-icons.md-300 { font-size: 300px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+body, #root {
+  width: 200vh;
+  height: 100vh;
+  background-color: #2E0F4D;
+  color: #fff;
+  width: 100%;
+}
+.App{
+  background-color: #2E0F4D;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.login{
+  background-color: #704A95;
+  height: 90%;
+  width: 90%;
+  display: flex;
+}
+.login .direita{
+  width: 50%;
+}
+.login .esquerda{
+  width: 50%;
+}
+.login .logo{
+  height: 60%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .formulario{
+  height: 40%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login  h1{
+  height: 25%;
+  color: #2E0F4D;
+  display: flex;
+  align-items: center;
+}
+.login .formulario .cadastro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75%;
+}
+button{
+outline-width: 0;
+border: none;
+border-radius: 10px;
+}
+button, .eye:hover{
+  cursor: pointer; 
+ }
+.login .formulario .cadastro button{
+height: 100px;
+width: 400px;
+font-size: 40px;
+color: #fff;
+background-color: #4D1A7F;
+}
+
+.login .formulario-direita{
+  align-items: center;
+}
+.icone {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+  color: #2E0F4D;
+}
+
+.input input{
+  height: 25px;
+  background-color: transparent;
+  color: #2E0F4D;
+  border: none;
+  outline-width: 0;
+  font-size: 20px;
+  width: 500px;
+  font-weight: bold;
+}
+.input input::-webkit-input-placeholder{
+  color: rgba(46, 15, 77, 0.5);
+}
+.login .formulario-direita  button{
+  background-color: #4D1A7F;
+  color: #fff;
+  width: 555px;
+  margin: 5px;
+  font-size: 40px;
+}
+.logo span{
+  color: #2E0F4D;
+  font-size: 400px;
+}
+.logo img{
+  width: 80%;
+}
+.input{
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #9966CC;
+  height: 50px;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+.dentro{
+  background-color: #704A95;
+  height: 90%;
+  width: 90%;
+  display: flex;
+}
+.dentro h1 {
+  color: #2E0F4D;
+}
+.dentro .direita{
+  width: 50%;
+}
+.dentro .esquerda{
+  width: 50%;
+}
+.dentro .esquerda .apagar{
+  margin-left: 10px;
+}
+.dentro .esquerda .extrato{
+  margin-left: 10px;
+}
+.dentro .esquerda .botoes{
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  margin-top: 10px;
+}
+.dentro .direita .cabeca{
+  height: auto;
+  color: #2E0F4D;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+.dentro span{
+  font-size: 50px;
+}
+.dentro button{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #4D1A7F;
+  margin-left: 5px;
+}
+li {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.dentro ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.dentro .resultados{
+  margin-top: 75px;
+  margin-left: 120px;
+}
+.dentro .add{
+  display: flex;
+  align-items: baseline;
+  margin-top: 300px;
+  margin-left: 145px;
+}
+.dentro .add button{
+  height: 25px;
+  width: 100px;
+  font-size: 10px;
+}
