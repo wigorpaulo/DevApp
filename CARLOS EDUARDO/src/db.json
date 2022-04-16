@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "carlos",
+      "email": "carlos@gg.com",
+      "senha": "1234"
+    }
+   ],
+
+  "financas": [
+      {
+        "id":1,
+        "tipo": "entrada",
+        "descricao": "objeto"
+      },
+
+      {
+        "id":2,
+        "tipo": "saida",
+        "descricao": "o que saiu"
+      },
+
+      {
+        "id":3,
+        "valor": "500.00",
+        "tipo": "Valor",
+        "descricao": "Saldo em Conta"
+      }
+
+    ]
+}

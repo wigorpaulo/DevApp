@@ -1,0 +1,18 @@
+.message.login
+{
+    color: rgb(188, 29, 29);
+}
+
+.entrar-cor{
+    background-color: green;
+    color: wheat;
+}
+
+.cadastro-btn{
+    background-color: brown;
+    color: aliceblue;
+
+}
+.contener{
+    background-color: aqua;
+}

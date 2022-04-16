@@ -1,0 +1,71 @@
+.navbar {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  padding: 0.6rem;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: rgb(89, 13, 177);
+  background-color: rgb(203, 157, 255);
+  font-weight: bold;
+  border-right: 2px solid rgb(0, 195, 255);
+}
+
+.title-sidebar {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  padding-bottom: 6px;
+}
+
+.title-sidebar::after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  top: 28px;
+  right: 0;
+  height: 0.8em;
+
+  /* background: rgb(255, 93, 93);
+  background: linear-gradient(
+    234deg,
+    rgba(118, 255, 93, 1) 0%,
+    rgba(255, 98, 98, 1) 17%,
+    rgba(181, 186, 12, 1) 35%,
+    rgba(72, 192, 152, 1) 51%,
+    rgba(128, 156, 252, 1) 65%,
+    rgba(221, 130, 241, 1) 79%,
+    rgba(0, 212, 255, 1) 92%,
+    rgba(238, 172, 172, 1) 100%
+  ); */
+  background: rgb(118, 255, 93);
+  background: linear-gradient(
+    234deg,
+    rgba(118, 255, 93, 1) 0%,
+    rgba(245, 176, 103, 1) 9%,
+    rgba(255, 98, 98, 1) 17%,
+    rgba(178, 145, 232, 1) 26%,
+    rgba(181, 186, 12, 1) 35%,
+    rgba(91, 157, 189, 1) 44%,
+    rgba(72, 192, 152, 1) 51%,
+    rgba(143, 205, 205, 1) 58%,
+    rgba(128, 156, 252, 1) 65%,
+    rgba(255, 162, 254, 1) 71%,
+    rgba(221, 130, 241, 1) 79%,
+    rgba(255, 159, 159, 1) 85%,
+    rgba(0, 212, 255, 1) 92%,
+    rgba(238, 172, 172, 1) 100%
+  );
+  z-index: -1;
+  animation: line 25s alternate infinite;
+  animation-timing-function: ease-in-out;
+  background-size: 600%;
+}
+
+.react {
+  -webkit-animation: rct 2s linear infinite;
+  -webkit-animation-duration: 2.5s;
+}

@@ -1,0 +1,9 @@
+ul {
+  max-height: 350px;
+}
+
+li {
+  height: 100%;
+  margin: 2.4rem auto;
+  justify-content: space-between;
+}

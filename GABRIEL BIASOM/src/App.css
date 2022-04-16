@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  /* justify-content: center; */
+  font-family: 'Roboto', sans-serif;
+  /* background-color: #08aeea;
+  background-image: linear-gradient(298deg, #08aeea 0%, #2af598 100%); */
+  animation: moving 15s linear infinite;
+  background-size: 600%;
+  background-image: linear-gradient(
+    45deg,
+    #2af598 0%,
+    #2bd2ff 52%,
+    #009efd 100%
+  );
+
+  color: #ffffff;
+  height: 100%;
+  min-height: 100vh;
+  transition: 600ms;
+}
+
+
+.App .container {
+
+  /* display:flex; */
+  /* align-items: center; */
+
+  width: 280px;
+  height: 450px;
+
+  display: block; 
+  grid-template-columns: auto auto auto;
+  background-color: #2195f3;
+  padding: 2px;
+  border-radius: 30px 30px 0 0;
+}
+
+.grid-item {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.514);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 30px 30px 0 0;
+  transition: 6000ms;
+}

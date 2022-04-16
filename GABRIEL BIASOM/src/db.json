@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Gabriel",
+      "email": "biasom@gmail.com",
+      "senha": "555555"
+    },
+    {
+      "nome": "Unialfa",
+      "email": "unialfa@unialfa.com",
+      "senha": "123456",
+      "id": 2
+    },
+    {
+      "nome": "Unialfa2",
+      "email": "unialfa234@unialfa.com",
+      "senha": "123456",
+      "id": 3
+    },
+    {
+      "nome": "Test",
+      "email": "testlogin@gmail.com",
+      "senha": "123123123",
+      "id": 7
+    },
+    {
+      "nome": "Gabriel Oliveira",
+      "email": "gabrieloliv@hotmail.com",
+      "senha": "12345",
+      "id": 8
+    }
+  ]
+}
