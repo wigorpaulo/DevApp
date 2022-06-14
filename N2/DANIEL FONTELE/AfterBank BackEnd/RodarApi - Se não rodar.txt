@@ -1,0 +1,5 @@
+Instalar .net sdk mais recente
+
+https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+
+Rodar Api em um ambiente Windows

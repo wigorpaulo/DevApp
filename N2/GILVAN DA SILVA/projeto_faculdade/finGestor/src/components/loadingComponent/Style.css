@@ -1,0 +1,17 @@
+.load {
+    z-index: 999;
+    width: 1250px;
+    height: 350px
+}
+
+@media only screen and (max-width: 1250px) {
+    .load {
+        width: 1090px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .load {
+        width: 900px !important;
+    }
+}
